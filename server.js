@@ -18,7 +18,8 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'tiger',
-    database: 'movies_db'
+    database: 'movies_db',
+    port: 3306
 });
 
 db.query = util.promisify(db.query);
