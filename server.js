@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 const path = require("path");
 
-const CORS_ORIGIN = 'http://localhost:3000'
+const CORS_ORIGIN = 'https://react-node-movies-data-client.vercel.app/'
 
 app.use(cors( CORS_ORIGIN ));
 app.use(bodyParser.json());
