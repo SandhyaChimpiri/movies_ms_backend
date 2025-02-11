@@ -15,10 +15,10 @@ app.use(cors( CORS_ORIGIN ));
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'tiger',
-    database: 'movies_db',
+    host: 'sql12.freesqldatabase.com',
+    user: 'sql12762181',
+    password: 'wuVdrXitUa',
+    database: 'sql12762181',
     port: 3306
 });
 
